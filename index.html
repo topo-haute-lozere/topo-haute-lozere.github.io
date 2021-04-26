@@ -1,53 +1,147 @@
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
-<html> <head>
-<title>Topo Haute Lozère</title>
+<html>
 
-<meta charset="utf-8"/>
-<link rel="icon" href="lozerian_poil_sale.png">
+<head>
+  <title>Topo Haute Lozère</title>
 
-<meta name=viewport content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <link rel="icon" href="lozerian_poil_sale.png">
 
-<style type="text/css">
-body {
-  background-color: #11243E;
-}
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-.heading {
+  <style type="text/css">
+    body {
+      background-color: #162d4cff;
+    }
 
-  color: white;
-  margin-top:100px;
-  font-family:'Roboto';
-  font-weight:700;
-  font-size:50px;
-}
+    .heading {
+      color: white;
+      font-family: 'Roboto';
+      font-weight: 700;
+      font-size: 50px;
+    }
 
-.content {
-  color:#ADBAC7;
-  font-family:'Roboto';
-}
+    .h3 {
+      color: #60d1faff;
+      font-size: 18px;
+    }
 
-</style>
+    .content {
+      color: #acb9c7ff;
+      font-family: 'Roboto';
+      font-weight: 400;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+    }
+
+    .card-container {
+      color: #B3B8CD;
+      padding-top: 30px;
+      margin-right: 10px;
+      position: relative;
+      width: 225px;
+      max-width: 100%;
+      text-align: center;
+    }
+
+    .button {
+      background-color: #60d1faff;
+      border: none;
+      color: black;
+      font-family: 'Roboto';
+      font-weight: 500;
+      padding: 6px 15px 6px 15px;
+      border-radius: 16.5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+    }
+
+    .button:hover {
+      background-color: white;
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="container">
+  <div class="container">
+
 
     <div class="row">
-      <div class="col-md-8 offset-md-2">
-          <p class="heading">Topo Haute-Lozère</p>
+      <div class="col-md-8 offset-md-2" style="margin-top: 100px;">
+        <p class="h3">Topo des blocs</p>
+        <p class="heading">Haute-Lozère</p>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-8 offset-md-2">
-        <a href="topo.pdf" class="btn btn-primary" role="button">Telecharger</a>
+    <div class="content">
+
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <p> Un topo des blocs qui se trouvent dans Haute-Lozère. Le topo est <a
+              href="https://github.com/topo-haute-lozere/topo-haute-lozere" style="color:#60d1faff;">open-source</a> et
+            libre pour
+            tous!</p>
+
+          <p> Profitez bien! </p>
+
+        </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <a href="topo.pdf" class="button" role="button"
+            style="text-decoration: none; border-radius: 20px;">Telecharger</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 offset-md-2" style="margin-top:20px; color:white;">
+          <h2>Contact</h2>
+          <a href="ohgeeztake@gmail.com" style="color: #f9da7bff">ohgeeztake@gmail.com</a>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-8 offset-md-2" style="margin-top:20px; color:white;">
+          <h2>Notre équipe</h2>
+
+          <div class="row" style="margin-top:20px">
+            <div class="card-container">
+              <img src="resources/jacko.png">
+              <h4 style="padding-top: 10px; font-size:18px;">Jack</h4>
+            </div>
+            <div class="card-container">
+              <img src="resources/pierre.png">
+              <h4 style="padding-top: 10px; font-size:18px;">Pierre</h4>
+            </div>
+            <div class="card-container">
+              <img src="resources/sherlock.png">
+              <h4 style="padding-top: 10px; font-size:18px;">Sherlock</h4>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
     </div>
-</div>
+
+  </div>
+
+
+  </div>
 
 </body>
+
 </html>
